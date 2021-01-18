@@ -22,4 +22,13 @@ Ans45
 qweibull(.10, 9, 180, lower.tail = TRUE)
 
 
+x <- c(0,1,2,3,4)
+
+p <- c(.8, .14, .03, .02, .01)
+
+e <- x*p
+
+E <- sum(e)
+
+E
 
