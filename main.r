@@ -32,3 +32,12 @@ E <- sum(e)
 
 E
 
+x <- c(23, 45, 68, 91, 114, 136, 159, 182, 205, 228)
+
+y <- c(53.3, 26.9, 54.8, 33.8, 29.9, 8.2, 17.2, 12.2, 3.2, 11.1)
+
+cor(x,y)
+
+plot(x, y, xlim=c(20, 230), ylim=c(0, 60), main="Example 3.3", pch=16, 
+col="blue", xlab = "amount filtered (1000s of liters)", 
+ylab = "% total suspended solids removed")
